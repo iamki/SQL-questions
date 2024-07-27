@@ -1,4 +1,5 @@
 --https://platform.stratascratch.com/coding/10285-acceptance-rate-by-date?code_type=1
+--where i practiced self joins
 
 /*
 1. date of the action = sent 2. same user_id_sender & user_id_receiver 3. that are accepted
