@@ -1,5 +1,9 @@
---1. date of the action = sent 2. same user_id_sender & user_id_receiver 3. that are accepted
---if the action of user_id_sender,user_id_receiver sent of that date is accepted
+--https://platform.stratascratch.com/coding/10285-acceptance-rate-by-date?code_type=1
+
+/*
+1. date of the action = sent 2. same user_id_sender & user_id_receiver 3. that are accepted
+if the action of user_id_sender,user_id_receiver sent of that date is accepted
+*/
 
 with accept as(
 select a.date, count(*) tots
